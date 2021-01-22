@@ -8,3 +8,6 @@ RUN apt-get update &&\
 WORKDIR /action
 
 COPY entrypoint.sh /entrypoint.sh
+
+ENTRYPOINT []
+CMD []
