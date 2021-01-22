@@ -9,10 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Verify action syntax
-        id: hello
+        id: npm-version
         uses: "./"
         with:
-          who-to-greet: "Mona the Octocat"
-      # Use the output from the `hello` step
-      - name: Get the output time
-        run: echo "The time was ${{ steps.hello.outputs.time }}"
+          cmd: "npm --version"

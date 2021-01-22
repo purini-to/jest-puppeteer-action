@@ -1,5 +1,12 @@
-name: "Hello World"
+name: "jest-puppeteer"
 description: "Greet someone and record the time"
+inputs:
+  cmd:
+    description: "Command"
+    required: true
+    default: "npm run test"
 runs:
   using: "docker"
   image: "Dockerfile"
+  args:
+    - ${{ inputs.cmd }}
