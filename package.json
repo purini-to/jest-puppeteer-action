@@ -1,0 +1,19 @@
+{
+  "name": "jest-puppeteer-action",
+  "version": "1.0.0",
+  "description": "このアクションは\"Hello World\"もしくは\"Hello\" + ログに挨拶する人物名を出力します。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Test example\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/purini-to/jest-puppeteer-action.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/purini-to/jest-puppeteer-action/issues"
+  },
+  "homepage": "https://github.com/purini-to/jest-puppeteer-action#readme"
+}

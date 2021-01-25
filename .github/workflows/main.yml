@@ -12,7 +12,7 @@ jobs:
         id: npm-version
         uses: "./"
         with:
-          cmd: npm -v
+          cmd: test
       - name: Push to GitHub Packages
         uses: docker/build-push-action@v1
         with:

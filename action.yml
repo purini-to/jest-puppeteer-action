@@ -2,9 +2,9 @@ name: "jest-puppeteer"
 description: "Greet someone and record the time"
 inputs:
   cmd:
-    description: "Command"
+    description: "Run script"
     required: true
-    default: "npm run test"
+    default: "test"
 runs:
   using: "docker"
   image: "Dockerfile"

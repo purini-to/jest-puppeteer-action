@@ -9,5 +9,5 @@ WORKDIR /action
 
 RUN npm install jest-puppeteer
 
-ENTRYPOINT []
-CMD []
+ENTRYPOINT ["npm"]
+CMD ["test"]
