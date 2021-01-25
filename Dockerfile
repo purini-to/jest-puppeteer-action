@@ -7,7 +7,7 @@ RUN apt-get update &&\
 
 WORKDIR /action
 
-COPY entrypoint.sh /entrypoint.sh
+RUN npm install jest-puppeteer
 
 ENTRYPOINT []
 CMD []
