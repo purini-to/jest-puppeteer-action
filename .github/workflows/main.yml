@@ -16,8 +16,5 @@ jobs:
       - name: Push to GitHub Packages
         uses: docker/build-push-action@v1
         with:
-          username: ${{ github.actor }}
-          password: ${{ secrets.GITHUB_TOKEN }}
-          registry: docker.pkg.github.com
-          repository: purini-to/jest-puppeteer-action
-          tag_with_ref: true
+          push: true
+          tags: purini-to/jest-puppeteer-action:latest
