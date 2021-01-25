@@ -12,4 +12,4 @@ jobs:
         id: npm-version
         uses: "./"
         with:
-          cmd: "npm --version"
+          cmd: "npm -v"
