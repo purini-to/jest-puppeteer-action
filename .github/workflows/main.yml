@@ -17,4 +17,3 @@ jobs:
         uses: docker/build-push-action@v1
         with:
           push: true
-          tags: purini-to/jest-puppeteer-action:latest
